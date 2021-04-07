@@ -4,6 +4,7 @@ import Carousel from './component/Carousel';
 import Navbar from './component/Navbar';
 import Body from './component/Body';
 import Parallax from './component/Parallax';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -15,14 +16,8 @@ function App() {
       <Carousel/>
       <Body/>
       <Parallax/>
+      <Footer/>
 
-    
-
-    
-  
-
-      
-      
     </div>
   );
 }

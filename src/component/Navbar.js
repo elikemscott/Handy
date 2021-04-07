@@ -48,24 +48,16 @@ render() {
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="twitter" />
+                 <span className='nav-sign-in'> Login</span>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="google-plus-g" />
+                <span className='nav-sign-up'>Sign up</span>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <MDBIcon icon="user" />
-                </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Sign up</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Log in</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
+             
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

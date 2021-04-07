@@ -2,6 +2,19 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
     background-color: bisque;
 }
 
+.nav-sign-in{
+  color: black;
+  font-weight: 450;
+}
+
+.nav-sign-up{
+  color: black;
+  font-weight: 450;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 7px;
+}
+
 .Banner{
     background-color: rgb(46, 194, 199);
     height: 60px;
@@ -130,6 +143,27 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
   min-height: 600px;
   width: 690px;
   
-  
-  
+}
+
+.footer{
+  background-color: rgb(32, 30, 30);
+  color: white;
+  height: 400px;
+}
+
+
+.footer-header{
+  height: 80px;
+  background-color: rgb(46, 194, 199);
+}
+
+.news-border{
+  border: 2px solid rgb(46, 194, 199);
+  height: 250px;
+}
+
+.copyright{
+  background-color: black;
+  margin-top: 40px;
+  text-align: left;
 }
