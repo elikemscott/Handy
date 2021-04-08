@@ -15,6 +15,70 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
   padding: 7px;
 }
 
+.form-elegant .font-small {
+  font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+  .signup{
+    background-color: rgb(39, 136, 192);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    
+  }
+  .signupFlex{
+    display: flex;
+    height: 86vh;
+    width: 70vw;
+    
+    border-radius: 3px;
+  }
+
+  .signupFlex > div{
+    height: 89vh;
+    width: 75vw;
+    margin: auto;
+    
+  }
+
+  .flex1{
+    
+  }
+
+  .image3{
+    height: 84vh;
+    width: 35vw;
+
+  }
+
+
+  .image3s{
+    height: 69vh;
+    width: 35vw;
+
+  }
+
+  
+
+  .round{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 10px !important;
+  }
+
+  
+
 .Banner{
     background-color: rgb(46, 194, 199);
     height: 60px;
