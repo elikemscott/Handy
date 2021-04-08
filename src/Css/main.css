@@ -219,11 +219,14 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
 .footer-header{
   height: 80px;
   background-color: rgb(46, 194, 199);
+  text-align: center;
+  padding-top: 3vh;
 }
 
 .news-border{
-  border: 2px solid rgb(46, 194, 199);
+  border: 1px solid rgb(46, 194, 199);
   height: 250px;
+  border-radius: 3px;
 }
 
 .copyright{

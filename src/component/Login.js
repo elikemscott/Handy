@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBBtn, MDBIcon, MDBModalFooter } from 'mdbreact';
-import image3 from '../images/austin.jpg'
+import image3 from '../images/austin.jpg';
+import { Link } from 'react-router-dom';
 
  function Login() {
     return (
@@ -47,8 +48,8 @@ import image3 from '../images/austin.jpg'
                   gradient="blue"
                   rounded
                   className="btn-block z-depth-1a"
-                >
-                  Login
+                > <Link to="/Homepage">
+                  Login </Link>
                 </MDBBtn>
               </div>
               <p className="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-1">
