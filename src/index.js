@@ -7,11 +7,17 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import'bootstrap-css-only/css/bootstrap.min.css'; 
 import'mdbreact/dist/css/mdb.css';
+import {createStore} from "redux";
+import {Provider} from "react-redux";
+import usersReducer from "./store/UserReducer";
+import Router from "./Router"
+
+const store = createStore (usersReducer)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store = {store}>
+    <Router/>
+  </Provider>,
   document.getElementById('root')
 );
 

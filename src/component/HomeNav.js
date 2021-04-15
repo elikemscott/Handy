@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './Footer';
 import image5 from '../images/workers.png';
 import {Link} from 'react-router-dom'
-class Homepage extends React.Component {
+class HomeNav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,7 +25,7 @@ class Homepage extends React.Component {
       <div>
         <header>
           
-            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling >
               <MDBNavbarBrand href="/">
                 <strong>Handy</strong>
               </MDBNavbarBrand>
@@ -35,14 +35,15 @@ class Homepage extends React.Component {
                   <MDBNavItem active>
                     <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
-                  <Link to="/PendingPage">  <MDBNavItem> 
-                  <MDBNavLink to="/PendingPage">Pending</MDBNavLink>
-                  </MDBNavItem> </Link>
                   <MDBNavItem>
                     <MDBNavLink to="/ReportPage">Reports</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#"> History</MDBNavLink>
+                    <MDBNavLink to="/PendingPage">Pending</MDBNavLink>
+                  </MDBNavItem>
+                  
+                  <MDBNavItem>
+                    <MDBNavLink to="#">Investment</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="#">Loans</MDBNavLink>
@@ -52,30 +53,15 @@ class Homepage extends React.Component {
             </MDBNavbar>
           
 
-          <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-              <div className="home_flex">
-                <div className="home_flex1">
-                  <h2>Experience a <br/>fresh way to <br/>manage money</h2>
-                  <p>Reach your goals with personalized insights, <br/>
-custom budgets, spend tracking, and subscription <br/>
-monitoring—all for free.</p> <Link to="/AddForm">
-<MDBBtn outline color="info" className="invoice_bttn">Create an Invoice</MDBBtn>
-</Link>
-                  </div>
-                <div className="home_flex2"><img src={image5} className="image5"/></div>
-              </div>
-
-            </MDBMask>
-          </MDBView>
+        
         </header>
 
         
 
-        <Footer/>
+       
       </div>
     );
   }
 }
 
-export default Homepage;
+export default HomeNav;

@@ -52,9 +52,7 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
     
   }
 
-  .flex1{
-    
-  }
+ 
 
   .image3{
     height: 84vh;
@@ -93,6 +91,69 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
     height: 200px;
     width: 100%;
     padding-top: 40px;
+}
+
+.home_flex{
+  display: flex;
+}
+
+
+
+.home_flex1{
+  width: 50vw;
+  height: 80vh;
+  
+  text-align: justify;
+  padding: 100px;
+  font-size: larger !important;
+}
+
+.home_flex2{
+  width: 50vw;
+  height: 80vh;
+  
+}
+
+.invoice_bttn{
+  margin-top: 50px !important;
+}
+.invoice-body{
+  background-color: rgb(19, 154, 207) !important;
+}
+
+.invoice-form{
+  margin: 70px 250px !important;
+  border: 1px solid lightgrey;
+}
+
+
+
+.confirm_child{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.confirm_image{
+  height: 200px;
+  width: 200px;
+}
+
+.invoice_success{
+  color: #48e4a3;
+  font-size: large;
+}
+
+.total{
+  margin-left: 500px !important;
+}
+
+.image5{
+  width: 50vw;
+  height: 70vh;
 }
 
 
@@ -234,3 +295,4 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
   margin-top: 40px;
   text-align: left;
 }
+
