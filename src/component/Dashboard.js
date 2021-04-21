@@ -5,13 +5,14 @@ import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardHeader, MDBCard
 const PanelPage = () => {
 return (
     <MDBContainer className="flexContainer">
+      <h3  style={{ color: "black", fontSize: "30px"}} >Dashboard</h3>
       <MDBRow>
         <MDBCol>  <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
     <MDBCardHeader color="white-color"><span style={{ color: "black"}} > Pending</span></MDBCardHeader>
     <a className="bttn" style={{ backgroundColors: "white"}}> <MDBCardBody>
       
       <MDBCardText>
-        You have <span style={{ color: "red"}}  >0</span> pending invoices.
+         <span style={{ color: "red", fontSize: "50px"}}  >0</span> 
       </MDBCardText>
       
     </MDBCardBody> </a>
@@ -24,7 +25,7 @@ return (
     <a><MDBCardBody>
       
       <MDBCardText>
-        You have created <span style={{ color: "red"}} >0</span> reports.
+        <span style={{ color: "red", fontSize: "50px"}} >0</span> .
       </MDBCardText>
       
     </MDBCardBody></a>
@@ -36,7 +37,7 @@ return (
    <a> <MDBCardBody>
       
       <MDBCardText>
-        No recent history
+      <span style={{ color: "red", fontSize: "50px"}}>0</span> 
       </MDBCardText>
      
     </MDBCardBody> </a>
@@ -48,7 +49,7 @@ return (
    <a> <MDBCardBody>
       
       <MDBCardText>
-        You have <span>0</span> loans
+         <span style={{ color: "red", fontSize: "50px"}}>0</span> 
       </MDBCardText>
       
     </MDBCardBody> </a>
