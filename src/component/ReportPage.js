@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { addUser, deleteUser } from "../store/UserActions";
 import "../App.css";
 import UserForm from "../component/UserForm";
-import UserInfo from "../component/UserInfo";
+import ReportUserInfo from "../component/ReportUserInfo";
 import { Link } from "react-router-dom";
 import HomeNav from "./HomeNav";
 import Footer from "./Footer";
@@ -46,7 +46,7 @@ class ReportPage extends Component {
                     <div className="col-md-3"> First Name</div>
                     <div className="col-md-2">Last Name</div>
                     <div className="col-md-2">Email</div>
-                    <div className="col-md-2">Date</div>
+                    <div className="col-md-2">Item</div>
                     <div className="col-md-1">Amount</div>
                     
                   </div>
@@ -55,7 +55,7 @@ class ReportPage extends Component {
                     {this.props.accepted_users.map((field, index) => {
                       return (
                         <span className="">
-                          <UserInfo
+                          <ReportUserInfo
                             key={field.id}
                             id={field.id}
                             firstName={field.firstNmae}

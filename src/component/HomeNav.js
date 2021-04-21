@@ -33,7 +33,7 @@ class HomeNav extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
+                    <MDBNavLink to="/Homepage">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to="/ReportPage">Reports</MDBNavLink>

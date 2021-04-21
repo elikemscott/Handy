@@ -29,15 +29,15 @@ const usersReducer = (state = initialState, action) => {
       );
       return { ...state, users: filterdUsers };
 
-    case "EDIT_USER":
-      const editedUsers = state.users.map((user) => {
-        if (user.id === action.user_id) {
-          return { ...user, ...action.updated_info };
-        } else {
-          return user;
-        }
-      });
-      return { ...state, users: editedUsers };
+    // case "EDIT_USER":
+    //   const editedUsers = state.users.map((user) => {
+    //     if (user.id === action.user_id) {
+    //       return { ...user, ...action.updated_info };
+    //     } else {
+    //       return user;
+    //     }
+    //   });
+    //   return { ...state, users: editedUsers };
 
     case "ADD_ACCEPTED_USER":
       console.log("bgt");

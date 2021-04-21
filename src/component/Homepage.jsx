@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './Footer';
 import image5 from '../images/workers.png';
 import {Link} from 'react-router-dom'
+import PanelPage from './Dashboard';
 class Homepage extends React.Component {
   constructor(props) {
     super(props);
@@ -33,7 +34,7 @@ class Homepage extends React.Component {
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
+                    <MDBNavLink to="/Homepage">Home</MDBNavLink>
                   </MDBNavItem>
                   <Link to="/PendingPage">  <MDBNavItem> 
                   <MDBNavLink to="/PendingPage">Pending</MDBNavLink>
@@ -60,10 +61,10 @@ class Homepage extends React.Component {
                   <p>Reach your goals with personalized insights, <br/>
 custom budgets, spend tracking, and subscription <br/>
 monitoring—all for free.</p> <Link to="/AddForm">
-<MDBBtn outline color="info" className="invoice_bttn">Create an Invoice</MDBBtn>
+<MDBBtn gradient="peach" className="invoice_bttn">Create an Invoice</MDBBtn>
 </Link>
                   </div>
-                <div className="home_flex2"><img src={image5} className="image5"/></div>
+                <div className="home_flex2 shadow-box-example z-depth-5"><PanelPage/></div>
               </div>
 
             </MDBMask>

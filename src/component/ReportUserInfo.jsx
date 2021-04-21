@@ -30,14 +30,10 @@ import {connect} from 'react-redux'
       <div className="col-md-2">{email}</div>
       <div className="col-md-2">{item}</div>
                       <div className="col-md-1">
-                      <span title='Add'>
-                        <button onClick = {() => {handleAdd(); handleClick();}} className="fas fa-plus red-text"></button>
-                      </span>
+                      {amount}
                       </div>
                       <div className="col-md-2 action-flex">
-                        <div className="pen">
-                        <a> <i onClick = {handleClick} className="far fa-trash-alt red-text" title='delete'></i> </a>
-                        </div>
+                        
                         <div className="trash">
                         
                         </div>
