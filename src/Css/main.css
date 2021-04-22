@@ -118,7 +118,7 @@ box-shadow: 7px -5px 8px 2px rgba(0,0,0,0.52);
 }
 
 .flexContainer{
-  margin: 20px !important;
+  margin: 20px ;
 }
 
 MDBCard .bttnn{
@@ -312,3 +312,131 @@ MDBCard .bttnn{
   text-align: left;
 }
 
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .block-info2{
+    display: block;
+    
+   
+  }
+
+  .block-text{
+    display: none;
+    position: relative;
+    top: 700px;
+    background-color: #3b8595;
+  }
+
+  .block-info{
+    display: block;
+    background-color: blue;
+  }
+
+  .image2{
+    display: none;
+  }
+
+  .signup{
+    background-image: url("https://images.unsplash.com/photo-1611021061285-16c871740efa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+  }
+
+  .image3{
+    display: none;
+  }
+
+  .homepage_responsive{
+    
+  }
+
+  .home{
+    display: none;
+  }
+
+  .home_mobile{
+    display: block;
+    margin: 60px 20px;
+    padding: 20 5px;
+  }
+
+  .balance{
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+ 
+
+
+  }
+
+  .avail{
+    padding: 10px;
+  }
+
+  .amount{
+    font-size: larger;
+    position: relative;
+    bottom: 35px;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .dashboard_tittle{
+    margin: 35px;
+    font-weight: 500;
+    
+    
+    
+  }
+
+ .pending{
+    background-color: grey;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 50px !important;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+   
+    
+    
+  }
+
+  .pending_notif{
+    padding: 20px;
+    position: relative;
+    left: 70px;
+    
+  }
+
+  
+
+  
+
+
+  
+
+  }

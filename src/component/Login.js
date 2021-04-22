@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
      <div className='signup'>
          <div className='signupFlex'>
              <div className='flex1'>
-                 <img src={image3} className='image3s'/>
+                 <img src={image3} className='image3'/>
              </div>
              <div className='flex2'> 
              <MDBCard className='form'>

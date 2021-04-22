@@ -1,10 +1,22 @@
-import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView, MDBBtn } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Footer from './Footer';
-import image5 from '../images/workers.png';
-import {Link} from 'react-router-dom'
-import PanelPage from './Dashboard';
+import React from "react";
+import {
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarNav,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBNavItem,
+  MDBNavLink,
+  MDBContainer,
+  MDBMask,
+  MDBView,
+  MDBBtn,
+} from "mdbreact";
+import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./Footer";
+import image5 from "../images/workers.png";
+import { Link } from "react-router-dom";
+import PanelPage from "./Dashboard";
 class Homepage extends React.Component {
   constructor(props) {
     super(props);
@@ -23,57 +35,90 @@ class Homepage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="homepage_responsive">
         <header>
-          
-            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
-              <MDBNavbarBrand href="/">
-                <strong>Handy</strong>
-              </MDBNavbarBrand>
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-              <MDBCollapse isOpen={this.state.collapse} navbar>
-                <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to="/Homepage">Home</MDBNavLink>
-                  </MDBNavItem>
-                  <Link to="/PendingPage">  <MDBNavItem> 
-                  <MDBNavLink to="/PendingPage">Pending</MDBNavLink>
-                  </MDBNavItem> </Link>
+          <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling>
+            <MDBNavbarBrand href="/">
+              <strong>Handy</strong>
+            </MDBNavbarBrand>
+            {!this.state.isWideEnough && (
+              <MDBNavbarToggler onClick={this.onClick} />
+            )}
+            <MDBCollapse isOpen={this.state.collapse} navbar>
+              <MDBNavbarNav left>
+                <MDBNavItem active>
+                  <MDBNavLink to="/Homepage">Home</MDBNavLink>
+                </MDBNavItem>
+                <Link to="/PendingPage">
+                  {" "}
                   <MDBNavItem>
-                    <MDBNavLink to="/ReportPage">Reports</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#"> History</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Loans</MDBNavLink>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBNavbar>
-          
+                    <MDBNavLink to="/PendingPage">Pending</MDBNavLink>
+                  </MDBNavItem>{" "}
+                </Link>
+                <MDBNavItem>
+                  <MDBNavLink to="/ReportPage">Reports</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="#"> History</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="#">Loans</MDBNavLink>
+                </MDBNavItem>
+              </MDBNavbarNav>
+            </MDBCollapse>
+          </MDBNavbar>
 
-          <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
+          <MDBView
+            className="home"
+            src="https://fed.upou.edu.ph/wp-content/uploads/2018/11/Plain-White-Background.jpg"
+          >
+            <MDBMask
+              overlay="white-light"
+              className="flex-center flex-column text-white text-center"
+            >
               <div className="home_flex">
                 <div className="home_flex1">
-                  <h2>Experience a <br/>fresh way to <br/>manage money</h2>
-                  <p>Reach your goals with personalized insights, <br/>
-custom budgets, spend tracking, and subscription <br/>
-monitoring—all for free.</p> <Link to="/AddForm">
-<MDBBtn gradient="peach" className="invoice_bttn">Create an Invoice</MDBBtn>
-</Link>
-                  </div>
-                <div className="home_flex2 shadow-box-example z-depth-5"><PanelPage/></div>
+                  <Link to="/Form">
+                    <MDBBtn gradient="peach" className="invoice_bttn">
+                      Create an Invoice
+                    </MDBBtn>
+                  </Link>
+                </div>
+                <div className="home_flex2 shadow-box-example z-depth-5">
+                  <PanelPage />
+                </div>
               </div>
-
             </MDBMask>
           </MDBView>
+
+          <div className="home_mobile">
+            <div>
+              <MDBBtn gradient="purple">Create Invoice</MDBBtn>
+            </div>
+            <div className="balance" gradient="purple">
+              <p className="avail">Available Balance</p>
+              <p className="amount">
+                <span>$</span>9,903
+              </p>
+            </div>
+            <br />
+            <h6 className="dashboard_tittle">Dashboard</h6>
+            <div className="dashboard">
+              <div className="pending">
+                <span>Pending</span> <span className="pending_notif">3</span>
+              </div>
+              <div className="pending">
+                <span>Pending</span> <span className="pending_notif">3</span>
+              </div>
+              <div className="pending">
+                <span>Pending</span> <span className="pending_notif">3</span>
+              </div>
+              <div className="pending">
+                <span>Pending</span> <span className="pending_notif">3</span>
+              </div>
+            </div>
+          </div>
         </header>
-
-        
-
-        <Footer/>
       </div>
     );
   }

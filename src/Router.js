@@ -11,6 +11,7 @@ import Display from './component/Display';
 import ConfirmPage from './component/ConfirmPage';
 import PendingPage from './component/PendingPage';
 import ReportPage from './component/ReportPage';
+import Form from './component/Form';
 
 
 export default function Router() {
@@ -28,6 +29,7 @@ export default function Router() {
           <Route exact={true} path="/ConfirmPage" component={ConfirmPage}/>
           <Route exact={true} path="/PendingPage" component={PendingPage}/>
           <Route exact={true} path="/ReportPage" component={ReportPage}/>
+          <Route exact={true} path="/Form" component={Form}/>
         
         
         </BrowserRouter>

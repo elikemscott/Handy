@@ -7,7 +7,7 @@ return (
     <MDBContainer className="flexContainer">
       <h3  style={{ color: "black", fontSize: "30px"}} >Dashboard</h3>
       <MDBRow>
-        <MDBCol>  <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
+        <MDBCol size="12">  <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
     <MDBCardHeader color="white-color"><span style={{ color: "black"}} > Pending</span></MDBCardHeader>
     <a className="bttn" style={{ backgroundColors: "white"}}> <MDBCardBody>
       
@@ -20,7 +20,7 @@ return (
   </MDBCard> </MDBCol>
 
 
-        <MDBCol> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
+        <MDBCol size="12"> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
     <MDBCardHeader color="white-color"><span style={{ color: "black"}} >Reports</span></MDBCardHeader>
     <a><MDBCardBody>
       
@@ -32,8 +32,8 @@ return (
     
   </MDBCard></MDBCol>
         
-        <MDBCol> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
-    <MDBCardHeader color="white-color"><span style={{ color: "black"}} >History</span></MDBCardHeader>
+        <MDBCol className="col-sm-6" size="12"> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
+    <MDBCardHeader color="white-color"><span style={{ color: "black"}} >Monthly Revenue</span></MDBCardHeader>
    <a> <MDBCardBody>
       
       <MDBCardText>
@@ -44,8 +44,8 @@ return (
     
   </MDBCard></MDBCol>
 
-        <MDBCol> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
-    <MDBCardHeader color="white-color"><span style={{ color: "black"}} >Loans</span></MDBCardHeader>
+        <MDBCol size="12" className="col-sm-6"> <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
+    <MDBCardHeader color="white-color"><span style={{ color: "black"}} >Total Revenue</span></MDBCardHeader>
    <a> <MDBCardBody>
       
       <MDBCardText>
