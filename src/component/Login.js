@@ -43,14 +43,15 @@ import { Link } from 'react-router-dom';
                 </a>
               </p>
               <div className="text-center mb-2">
+              <Link to="/Homepage">
                 <MDBBtn
                   type="button"
                   gradient="blue"
                   rounded
                   className="btn-block z-depth-1a"
-                > <Link to="/Homepage">
-                  Login </Link>
-                </MDBBtn>
+                > 
+                  Login 
+                </MDBBtn> </Link>
               </div>
               <p className="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-1">
 

@@ -319,6 +319,10 @@ MDBCard .bttnn{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
+
+  body{
+  outline: red solid;
+  }
   .block-info2{
     display: block;
     
@@ -337,6 +341,10 @@ MDBCard .bttnn{
     background-color: blue;
   }
 
+  .image1{
+    width: 370px;
+  }
+
   .image2{
     display: none;
   }
@@ -350,8 +358,8 @@ MDBCard .bttnn{
     display: none;
   }
 
-  .homepage_responsive{
-    
+  .invoice-padding{
+    margin-top: 65px;
   }
 
   .home{
@@ -431,6 +439,39 @@ MDBCard .bttnn{
     left: 70px;
     
   }
+
+  .images {
+    width: 150px;
+  height: 100px;}
+
+  .images_stanbic {
+    width: 100px;
+  height: 100px;}
+
+  .images_fnb {
+    width: 130px;
+  height: 100px;}
+
+  .images_izwe {
+    width: 130px;
+  height: 100px;}
+
+  .images_blue {
+    width: 130px;
+  height: 100px;}
+
+  .apply_btn{
+    font-size: smaller !important;
+  }
+
+  .bank_name{
+    position: relative;
+    left:8px;
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  
 
   
 

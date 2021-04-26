@@ -46,7 +46,7 @@ class HomeNav extends React.Component {
                     <MDBNavLink to="#">Investment</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Loans</MDBNavLink>
+                    <MDBNavLink to="/Loans">Loans</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>

@@ -93,7 +93,7 @@ class Homepage extends React.Component {
 
           <div className="home_mobile">
             <div>
-              <MDBBtn gradient="purple">Create Invoice</MDBBtn>
+            <Link to='/Form'>  <MDBBtn gradient="purple">Create Invoice</MDBBtn> </Link>
             </div>
             <div className="balance" gradient="purple">
               <p className="avail">Available Balance</p>
@@ -108,13 +108,13 @@ class Homepage extends React.Component {
                 <span>Pending</span> <span className="pending_notif">3</span>
               </div>
               <div className="pending">
-                <span>Pending</span> <span className="pending_notif">3</span>
+                <span>Reports</span> <span className="pending_notif">11</span>
               </div>
               <div className="pending">
-                <span>Pending</span> <span className="pending_notif">3</span>
+                <span>Monthly Revenue</span> <span className="pending_notif">1,350</span>
               </div>
               <div className="pending">
-                <span>Pending</span> <span className="pending_notif">3</span>
+                <span>Total Revenue</span> <span className="pending_notif">16,200</span>
               </div>
             </div>
           </div>
