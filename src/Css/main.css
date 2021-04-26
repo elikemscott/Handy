@@ -320,9 +320,7 @@ MDBCard .bttnn{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
 
-  body{
-  outline: red solid;
-  }
+  
   .block-info2{
     display: block;
     
