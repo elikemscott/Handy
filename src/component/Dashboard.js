@@ -8,7 +8,7 @@ return (
       <h3  style={{ color: "black", fontSize: "30px"}} >Dashboard</h3>
       <MDBRow>
         <MDBCol size="12">  <MDBCard style={{ width: "15rem", marginTop: "6rem" }} className="text-center">
-    <MDBCardHeader color="white-color"><span style={{ color: "black"}} > Pending</span></MDBCardHeader>
+    <MDBCardHeader color="white-color"><span style={{ color: "black"}} > Invoices <br/> <span> <span>6</span> pending </span> </span></MDBCardHeader>
     <a className="bttn" style={{ backgroundColors: "white"}}> <MDBCardBody>
       
       <MDBCardText>

@@ -17,9 +17,10 @@ const usersReducer = (state = initialState, action) => {
         firstName: action.payload.firstName,
         lastName: action.payload.lastName,
         email: action.payload.email,
-        item: action.payload.item,
-        amount: action.payload.amount,
-        approve: action.payload.approve,
+        phone: action.payload.phone,
+        product: action.payload.product,
+        materials: action.payload.materials,
+        total: action.payload.total,
       };
       return { ...state, users: [...state.users, newUser] };
 
@@ -46,9 +47,10 @@ const usersReducer = (state = initialState, action) => {
         firstName: action.payload.firstName,
         lastName: action.payload.lastName,
         email: action.payload.email,
-        item: action.payload.item,
-        amount: action.payload.amount,
-        approve: action.payload.approve,
+        phone: action.payload.email,
+        product: action.payload.product,
+        materials: action.payload.materials,
+        total: action.payload.total,
       };
       return { ...state, accepted_users: [...state.accepted_users, acceptedNewUser] };
 

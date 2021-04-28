@@ -1,10 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import{addAcceptedUser} from '../store/UserActions'
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 
 
-  const UserInfo = ({firstName, lastName, email, item, amount, approve, id, removeUser, details, addAcceptedUser}) => {
+  const ReportUserInfo = ({firstName, lastName, email, total, item, amount, approve, id, removeUser, details, addAcceptedUser}) => {
     const handleClick = () => {
       removeUser(id)
     }
@@ -17,28 +18,32 @@ import {connect} from 'react-redux'
 
       return (
         
-         <div className="row e-commerce">
-                      <div className="col-md-3">
-                        <div className="container">
-                          <div className="row company-flex">
-                            <div className="pic-box"></div>
-      <div className="">{firstName}</div>
-                          </div>
-                        </div>
-                      </div>
-      <div className="col-md-2"> {lastName} </div>
-      <div className="col-md-2">{email}</div>
-      <div className="col-md-2">{item}</div>
-                      <div className="col-md-1">
-                      {amount}
-                      </div>
-                      <div className="col-md-2 action-flex">
-                        
-                        <div className="trash">
-                        
-                        </div>
-                      </div>
-                    </div>
+        <div>
+        <hr/>
+        <MDBContainer>
+  <MDBRow>
+    <MDBCol size="8" className='report_name'>{firstName} {lastName}</MDBCol>
+    <MDBCol size="4" className='report_amount'>{total}</MDBCol>
+    
+  </MDBRow>
+
+  <MDBRow>
+    <MDBCol size="8" className='report_inv'>Inv001</MDBCol>
+    <MDBCol size="4" className='report_date'>26-04-20</MDBCol>
+    
+  </MDBRow>
+
+  <MDBRow>
+    <MDBCol size="8" className='report_paid'> <MDBIcon far icon="check-circle" /> Paid </MDBCol>
+    <MDBCol size="4"></MDBCol>
+    
+  </MDBRow>
+  
+</MDBContainer>
+
+<hr/>
+        
+    </div>
         
       )
     }
@@ -47,4 +52,4 @@ import {connect} from 'react-redux'
     const mapDispatchToProps = {
       addAcceptedUser,
     };
-    export default connect(null, mapDispatchToProps) (UserInfo);
+    export default connect(null, mapDispatchToProps) (ReportUserInfo);

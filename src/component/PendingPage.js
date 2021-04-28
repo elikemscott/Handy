@@ -63,9 +63,11 @@ class PendingPage extends Component {
                             firstName={field.firstName}
                             lastName={field.lastName}
                             email={field.email}
-                            item={field.item}
-                            amount={field.amount}
-                            approve={field.approve}
+                            phone={field.phone}
+                            product={field.product}
+                            material={field.material}
+                            workmanship={field.workmanship}
+                            total={field.total}
                             removeUser={this.deleteUser}
                             details={field}
                           />

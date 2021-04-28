@@ -25,6 +25,7 @@ class Form extends Component {
             lastName: '',
             email:'',
             phone:'',
+            product:'',
             materials:'',
             workmanship: '',
             total: '',
@@ -45,6 +46,7 @@ class Form extends Component {
           lastName: this.state.lastName,
           email: this.state.email,
           phone: this.state.phone,
+          product: this.state.product,
           materials: this.state.materials,
           workmanship: this.state.workmanship,
           total: this.state.total,
@@ -58,6 +60,7 @@ class Form extends Component {
           lastName:'',
           email:'',
           phone:'',
+          product:'',
           materials:'',
           workmanship: '',
           total: '',
@@ -122,8 +125,18 @@ class Form extends Component {
                     success="right"
                     name ="phone" value={this.state.phone} className ="name" onChange={this.handleChange}
                   />
+                   <MDBInput
+                    label=" Product or Service"
+                    icon="shopping-basket"
+                    group
+                    type="text"
+                    validate
+                    error="wrong"
+                    success="right"
+                    name ="product" value={this.state.product} className ="name" onChange={this.handleChange}
+                  />
                   <MDBInput
-                    label="Materials"
+                    label="Total Cost of Materials"
                     icon="list-ul"
                     group
                     type="text"
@@ -133,7 +146,7 @@ class Form extends Component {
                     name ="materials" value={this.state.materials} className ="name" onChange={this.handleChange}
                   />
                   <MDBInput
-                    label="Workmanship"
+                    label="Total Cost of Workmanship"
                     icon="wrench"
                     group
                     type="text"

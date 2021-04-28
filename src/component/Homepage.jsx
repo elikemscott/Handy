@@ -59,10 +59,10 @@ class Homepage extends React.Component {
                   <MDBNavLink to="/ReportPage">Reports</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#"> History</MDBNavLink>
+                  <MDBNavLink to="/Sample"> Financial Services</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">Loans</MDBNavLink>
+                  <MDBNavLink to="#">Settings</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
@@ -105,16 +105,16 @@ class Homepage extends React.Component {
             <h6 className="dashboard_tittle">Dashboard</h6>
             <div className="dashboard">
               <div className="pending">
-                <span>Pending</span> <span className="pending_notif">3</span>
+                <span className='invoice_tittle_m' >Invoices <br/> </span>  <span  className='invoice_tittle'> <span className='pending_num'>6</span> pending </span>  <span className="pending_notif">$3,808</span>
               </div>
               <div className="pending">
-                <span>Reports</span> <span className="pending_notif">11</span>
+                <span className='invoice_tittle_m' >Reports </span>  <br/> <span  className='invoice_tittle'> <span className='pending_num'>11</span> reports created </span> <span className="pending_notif"></span>
               </div>
               <div className="pending">
-                <span>Monthly Revenue</span> <span className="pending_notif">1,350</span>
+                <span className='invoice_tittle_m' >Monthly Revenue</span>  <br/> <span className='invoice_tittle'> <span>Last Month</span> </span>  <span className="pending_notif">$3,350</span>
               </div>
               <div className="pending">
-                <span>Total Revenue</span> <span className="pending_notif">16,200</span>
+                <span className='invoice_tittle_m' >Total Revenue</span> <span className="total_rev">$16,200</span>
               </div>
             </div>
           </div>

@@ -13,6 +13,8 @@ import PendingPage from './component/PendingPage';
 import ReportPage from './component/ReportPage';
 import Form from './component/Form';
 import Loans from './component/Loans';
+import Pending from './component/Pending';
+import Sample from './component/Sample';
 
 
 export default function Router() {
@@ -32,6 +34,9 @@ export default function Router() {
           <Route exact={true} path="/ReportPage" component={ReportPage}/>
           <Route exact={true} path="/Form" component={Form}/>
           <Route exact={true} path="/Loans" component={Loans}/>
+          <Route exact={true} path="/Pending" component={Pending}/>
+          <Route exact={true} path="/Sample" component={Sample}/>
+          
         
         
         </BrowserRouter>

@@ -358,6 +358,54 @@ MDBCard .bttnn{
 
   .invoice-padding{
     margin-top: 65px;
+    
+  }
+
+  .invoice_tittle{
+    position: relative;
+    top: 7px;
+  }
+
+  .invoice_tittle_m{
+    color: rgb(214, 205, 205);
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .total_rev{
+    position: relative;
+    left: 70px;
+    font-weight: bolder;
+  }
+
+  .report_name{
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+
+  .report_amount{
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+
+  .report_inv{
+    color: grey;
+    font-size: small;
+    margin-top: 10px;
+  }
+
+  .report_date{
+    color: grey;
+    font-size: small;
+    margin-top: 10px;
+  }
+
+  .report_paid{
+    color: rgb(94, 243, 139);
+    font-size: small;
+    margin-top: 13px;
   }
 
   .home{
@@ -396,7 +444,7 @@ MDBCard .bttnn{
   .amount{
     font-size: larger;
     position: relative;
-    bottom: 35px;
+    bottom: 25px;
     padding: 10px;
     font-weight: bold;
   }
@@ -410,14 +458,15 @@ MDBCard .bttnn{
   }
 
  .pending{
-    background-color: grey;
+    background-color: rgb(80, 78, 78);
     color: white;
     font-weight: 400;
     border-radius: 3px;
     width: 250px;
-    height: 50px;
+    height: 80px;
     margin-left: 40px;
     margin-top: 50px !important;
+    padding: 10px;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -431,10 +480,16 @@ MDBCard .bttnn{
     
   }
 
+  .pending_num{
+    font-weight: bolder;
+  }
+
   .pending_notif{
     padding: 20px;
     position: relative;
     left: 70px;
+    top: 7px;
+    font-weight: bolder;
     
   }
 
@@ -468,6 +523,72 @@ MDBCard .bttnn{
     font-size: medium;
     font-weight: 400;
   }
+
+  
+  .user_sub{
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    background-color: white;
+
+  }
+
+  .user_customer{
+    color: grey;
+    font-size: medium;
+    font-weight: 500;
+    
+  }
+
+  .user_name{
+    font-size: larger;
+    font-weight: 400;
+    
+  }
+
+  .user_email{
+    
+    color: grey;
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  .user_phone{
+    color: grey;
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  .user_product{
+    
+    position: relative;
+    top: 100px;
+    padding: 15px;
+    background-color: white;
+
+  }
+
+  .prod{
+    color: grey;
+    font-size: medium;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+  }
+  .prod_margin{
+    margin-top: 3px;
+    height: 12px;
+    background-color: whitesmoke;
+  }
+
+  .prod_margin_b{
+    margin-top: 3px;
+    height: 12px;
+    position: static;
+    background-color: rgb(236, 233, 233);
+  }
+
+  
 
   
 

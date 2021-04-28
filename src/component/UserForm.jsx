@@ -8,9 +8,11 @@ class UserForm extends Component {
             firstName:'',
             lastName: '',
             email:'',
-            item:'',
-            amount:'',
-            approve: '',
+            phone:'',
+            product:'',
+            materials: '',
+            workmanship:'',
+            total:'',
           
              
         }
@@ -27,9 +29,11 @@ class UserForm extends Component {
           firstName: this.state.firstName,
           lastName: this.state.lastName,
           email: this.state.email,
-          item: this.state.item,
-          amount: this.state.amount,
-          approve: this.state.approve,
+          product: this.state.product,
+          phone: this.state.product,
+          materials: this.state.workmanship,
+          workmanship: this.state.workmanship,
+          total: this.state.total
           
 
         
@@ -39,9 +43,11 @@ class UserForm extends Component {
           firstName:'',
           lastName:'',
           email:'',
-          item:'',
-          amount:'',
-          approve: '',
+          product:'',
+          phone:'',
+          materials:'',
+          workmanship: '',
+          total:'',
          
         });
         

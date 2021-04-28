@@ -3,12 +3,13 @@ import { connect } from "react-redux";
 import { addUser, deleteUser } from "../store/UserActions";
 import "../App.css";
 import UserForm from "../component/UserForm";
-import ReportUserInfo from "../component/ReportUserInfo";
+import UserInfo from "../component/UserInfo";
 import { Link } from "react-router-dom";
 import HomeNav from "./HomeNav";
 import Footer from "./Footer";
+import Sample from "./Sample";
 
-class ReportPage extends Component {
+class PendingPage extends Component {
   AddNewUser = (newUser) => {
     this.props.addUser(newUser);
   };
@@ -17,47 +18,57 @@ class ReportPage extends Component {
     this.props.deleteUser(user_id);
   };
 
+  
+
   render() {
-    console.log(this.props.accepted_users);
     return (
       <div className="parent">
-          <HomeNav/> <br/> <br/> <br/>
-        
+          <HomeNav/> <br/> <br/> <br/> <br/>
+        <div className="sidenav">
+          <UserForm addUser={this.AddNewUser} />
+        </div>
 
         <div className="main">
           <div>
            
 
-            
-
             <div className="flex">
               <div className="dashboard">
+                
+                <div className="add-startup">
+                  <Link to={`/add/${this.AddNewUser}`}>
+                    {" "}
+                     Add Invoice{" "}
+                  </Link>
+                </div>
                
               </div>
               <div className="startups">
-                <div className="all">Reports</div>
+                
                 <div className="container">
                   <input
                     className="form-control form-control-sm"
                     type="text"
-                    placeholder="Filter Reports"
+                    placeholder="Filter Invoice"
                   />
+                  
                   
 
                   <div className="container new_user_info">
-                    {this.props.accepted_users.map((field, index) => {
+                    {this.props.users.map((field, index) => {
                       return (
                         <span className="">
-                          <ReportUserInfo
+                          <Sample
                             key={field.id}
                             id={field.id}
-                            firstName={field.firstNmae}
+                            firstName={field.firstName}
                             lastName={field.lastName}
                             email={field.email}
-                            total={field.total}
+                            item={field.item}
                             amount={field.amount}
                             approve={field.approve}
                             removeUser={this.deleteUser}
+                            details={field}
                           />
                         </span>
                       );
@@ -76,7 +87,6 @@ class ReportPage extends Component {
 
 const mapStateToProps = (state) => ({
   users: state.users,
-  accepted_users: state.accepted_users
 });
 
 const mapDispatchToProps = {
@@ -84,4 +94,4 @@ const mapDispatchToProps = {
   deleteUser: deleteUser,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ReportPage);
+export default connect(mapStateToProps, mapDispatchToProps)(PendingPage);
