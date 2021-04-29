@@ -1,13 +1,13 @@
-body{font-family: Roboto, Helvetica, Arial, sans-serif; 
-    
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.nav-sign-in{
+.nav-sign-in {
   color: black;
   font-weight: 450;
 }
 
-.nav-sign-up{
+.nav-sign-up {
   color: black;
   font-weight: 450;
   border: 1px solid black;
@@ -16,432 +16,578 @@ body{font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .form-elegant .font-small {
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+}
 
 .form-elegant .z-depth-1a {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
-  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26),
+    0 4px 12px 0 rgba(121, 155, 254, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26),
+    0 4px 12px 0 rgba(121, 155, 254, 0.25);
+}
 
 .form-elegant .z-depth-1-half,
 .form-elegant .btn:hover {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
-  box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
-
-  .signup{
-    background-color: rgb(39, 136, 192);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    
-  }
-  .signupFlex{
-    display: flex;
-    height: 86vh;
-    width: 70vw;
-    
-    border-radius: 3px;
-  }
-
-  .signupFlex > div{
-    height: 89vh;
-    width: 75vw;
-    margin: auto;
-    
-  }
-
- 
-
-  .image3{
-    height: 84vh;
-    width: 35vw;
-
-  }
-
-
-  .image3s{
-    height: 69vh;
-    width: 35vw;
-
-  }
-
-  
-
-  .round{
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 10px !important;
-  }
-
-  
-
-.Banner{
-    background-color: rgb(46, 194, 199);
-    height: 60px;
-    width:100%;
-    font-size: larger;
-    margin: auto;
-    text-align: center;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28),
+    0 4px 15px 0 rgba(36, 133, 255, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28),
+    0 4px 15px 0 rgba(36, 133, 255, 0.15);
 }
 
-.plans{
-    background-color: white;
-    height: 200px;
-    width: 100%;
-    padding-top: 40px;
+.signup {
+  background-color: rgb(39, 136, 192);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.signupFlex {
+  display: flex;
+  height: 86vh;
+  width: 70vw;
+
+  border-radius: 3px;
 }
 
-.home_flex{
+.signupFlex > div {
+  height: 89vh;
+  width: 75vw;
+  margin: auto;
+}
+
+.image3 {
+  height: 84vh;
+  width: 35vw;
+}
+
+.image3s {
+  height: 69vh;
+  width: 35vw;
+}
+
+.round {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 10px !important;
+}
+
+.Banner {
+  background-color: rgb(46, 194, 199);
+  height: 60px;
+  width: 100%;
+  font-size: larger;
+  margin: auto;
+  text-align: center;
+}
+
+.plans {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.home_flex {
   display: flex;
 }
 
-
-
-.home_flex1{
+.home_flex1 {
   width: 50vw;
   height: 80vh;
-  
+
   text-align: justify;
   padding: 100px;
   font-size: larger !important;
 }
 
-.home_flex2{
+.home_flex2 {
   width: 45vw;
   height: 80vh;
   background-color: white;
   border-radius: 3px;
-  -webkit-box-shadow: 7px -5px 8px 2px rgba(0,0,0,0.52); 
-box-shadow: 7px -5px 8px 2px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 7px -5px 8px 2px rgba(0, 0, 0, 0.52);
+  box-shadow: 7px -5px 8px 2px rgba(0, 0, 0, 0.52);
 }
 
-.flexContainer{
-  margin: 20px ;
+.flexContainer {
+  margin: 20px;
 }
 
-MDBCard .bttnn{
+MDBCard .bttnn {
   background-color: white !important ;
   height: 150px !important;
 }
 
-
-
-.invoice_bttn{
+.invoice_bttn {
   margin-top: 50px !important;
 }
-.invoice-body{
+.invoice-body {
   background-color: rgb(19, 154, 207) !important;
 }
 
-.invoice-form{
+.invoice-form {
   margin: 70px 250px !important;
   border: 1px solid lightgrey;
 }
 
-
-
-.confirm_child{
+.confirm_child {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
-.confirm_image{
+.confirm_image {
   height: 200px;
   width: 200px;
 }
 
-.invoice_success{
+.invoice_success {
   color: #48e4a3;
   font-size: large;
 }
 
-.total{
+.total {
   margin-left: 500px !important;
 }
 
-.image5{
+.image5 {
   width: 50vw;
   height: 70vh;
 }
-
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(http://vikenation.com/library/images/demo7374_bigteams_2485/teamphotos/standard/2015BVarsitySoccer.jpg);
 @import url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
 
-
 /* Override UGG site */
-#main {width: 100%; padding:0;}
-.content-asset p {margin:0 auto;}
-.breadcrumb {display:none;}
+#main {
+  width: 100%;
+  padding: 0;
+}
+.content-asset p {
+  margin: 0 auto;
+}
+.breadcrumb {
+  display: none;
+}
 
 /* Helpers */
 /**************************/
-.margin-top-10 {padding-top:10px;}
-.margin-bot-10 {padding-bottom:10px;}
+.margin-top-10 {
+  padding-top: 10px;
+}
+.margin-bot-10 {
+  padding-bottom: 10px;
+}
 
 /* Typography */
 /**************************/
-#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
-#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
-.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+#parallax-world-of-ugg h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+#parallax-world-of-ugg h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: 0.8;
+}
+#parallax-world-of-ugg h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+#parallax-world-of-ugg p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
-.sc {color: #3b8595;}
-.ny {color: #3d3c3a;}
-.atw {color: #c48660;}
+.sc {
+  color: #3b8595;
+}
+.ny {
+  color: #3d3c3a;
+}
+.atw {
+  color: #c48660;
+}
 
 /* Section - Title */
 /**************************/
-#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
-#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax-world-of-ugg .title {
+  background: white;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+#parallax-world-of-ugg .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
-#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
-#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+#parallax-world-of-ugg .block {
+  background: white;
+  padding: 60px;
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
+}
+#parallax-world-of-ugg .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+#parallax-world-of-ugg .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#parallax-world-of-ugg .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#parallax-world-of-ugg .parallax-four {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 
-#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-five {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 
-#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
+#parallax-world-of-ugg .parallax-six {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 
 /* Extras */
 /**************************/
-#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+#parallax-world-of-ugg .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
 
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
 }
 @media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
-  #parallax-world-of-ugg h2 {font-size:30px;}
-  #parallax-world-of-ugg .block {padding: 30px;}
-  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+  #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+  #parallax-world-of-ugg .parallax-one,
+  #parallax-world-of-ugg .parallax-two,
+  #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 @media screen and (max-width: 479px) {
-  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+  #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
 }
 
-.block-info{
+.block-info {
   display: flex;
 }
 
-.block-info > div{
+.block-info > div {
   margin: 0px;
-  
 }
 
-.block-info2{
+.block-info2 {
   display: flex;
 }
 
-.block-info2 > div{
+.block-info2 > div {
   margin: 0px;
-  
 }
 
-.block-text{
+.block-text {
   width: 850px;
 }
 
-.btn{
+.btn {
   display: inline-block;
   text-align: center;
   padding: 15px 5px;
   font: message-box;
   background: darkgreen;
   color: aliceblue;
-
 }
 
-.image1{
+.image1 {
   min-height: 600px;
   width: 750px;
-  
-  
-  
 }
 
-.image2{
+.image2 {
   min-height: 600px;
   width: 690px;
-  
 }
 
-.footer{
+.footer {
   background-color: rgb(32, 30, 30);
   color: white;
   height: 400px;
 }
 
-
-.footer-header{
+.footer-header {
   height: 80px;
   background-color: rgb(46, 194, 199);
   text-align: center;
   padding-top: 3vh;
 }
 
-.news-border{
+.news-border {
   border: 1px solid rgb(46, 194, 199);
   height: 250px;
   border-radius: 3px;
 }
 
-.copyright{
+.copyright {
   background-color: black;
   margin-top: 40px;
   text-align: left;
 }
 
-
-
-
-
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
 
-  
-  .block-info2{
+  .block-info2 {
     display: block;
-    
-   
   }
 
-  .block-text{
+  .block-text {
     display: none;
     position: relative;
     top: 700px;
     background-color: #3b8595;
   }
 
-  .block-info{
+  .block-info {
     display: block;
     background-color: blue;
   }
 
-  .image1{
+  .image1 {
     width: 370px;
   }
 
-  .image2{
+  .image2 {
     display: none;
   }
 
-  .signup{
+  .signup {
     background-image: url("https://images.unsplash.com/photo-1611021061285-16c871740efa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
     background-size: cover;
   }
 
-  .image3{
+  .image3 {
     display: none;
   }
 
-  .invoice-padding{
+  .invoice-padding {
     margin-top: 65px;
-    
   }
 
-  .invoice_tittle{
+  .invoice_tittle {
     position: relative;
     top: 7px;
   }
 
-  .invoice_tittle_m{
+  .invoice_tittle_m {
     color: rgb(214, 205, 205);
     font-size: medium;
     font-weight: bolder;
   }
 
-  .total_rev{
+  .total_rev {
     position: relative;
     left: 70px;
     font-weight: bolder;
   }
 
-  .report_name{
+  .report_name {
     font-size: medium;
     font-weight: bolder;
     margin-top: 10px;
   }
 
-  .report_amount{
+  .report_amount {
     font-size: larger;
     font-weight: bolder;
     margin-top: 10px;
   }
 
-  .report_inv{
+  .report_inv {
     color: grey;
     font-size: small;
     margin-top: 10px;
   }
 
-  .report_date{
+  .report_date {
     color: grey;
     font-size: small;
     margin-top: 10px;
   }
 
-  .report_paid{
+  .report_paid {
     color: rgb(94, 243, 139);
     font-size: small;
     margin-top: 13px;
   }
 
-  .home{
+  .home {
     display: none;
   }
 
-  .home_mobile{
+  .home_mobile {
     display: block;
     margin: 60px 20px;
     padding: 20 5px;
   }
 
-  .balance{
+  .balance {
     width: 300px;
     height: 100px;
     margin: 20px;
     background-color: whitesmoke;
     border-radius: 4px;
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-  ;
- 
-
-
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
   }
 
-  .avail{
+  .avail {
     padding: 10px;
   }
 
-  .amount{
+  .amount {
     font-size: larger;
     position: relative;
     bottom: 25px;
@@ -449,15 +595,12 @@ MDBCard .bttnn{
     font-weight: bold;
   }
 
-  .dashboard_tittle{
+  .dashboard_tittle {
     margin: 35px;
     font-weight: 500;
-    
-    
-    
   }
 
- .pending{
+  .pending {
     background-color: rgb(80, 78, 78);
     color: white;
     font-weight: 400;
@@ -467,136 +610,118 @@ MDBCard .bttnn{
     margin-left: 40px;
     margin-top: 50px !important;
     padding: 10px;
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-  ;
-   
-    
-    
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
   }
 
-  .pending_num{
+  .pending_num {
     font-weight: bolder;
   }
 
-  .pending_notif{
+  .pending_notif {
     padding: 20px;
     position: relative;
     left: 70px;
     top: 7px;
     font-weight: bolder;
-    
   }
 
   .images {
     width: 150px;
-  height: 100px;}
+    height: 100px;
+  }
 
   .images_stanbic {
     width: 100px;
-  height: 100px;}
+    height: 100px;
+  }
 
   .images_fnb {
     width: 130px;
-  height: 100px;}
+    height: 100px;
+  }
 
   .images_izwe {
     width: 130px;
-  height: 100px;}
+    height: 100px;
+  }
 
   .images_blue {
     width: 130px;
-  height: 100px;}
+    height: 100px;
+  }
 
-  .apply_btn{
+  .apply_btn {
     font-size: smaller !important;
   }
 
-  .bank_name{
+  .bank_name {
     position: relative;
-    left:8px;
+    left: 8px;
     font-size: medium;
     font-weight: 400;
   }
 
-  
-  .user_sub{
+  .user_sub {
     position: relative;
     top: 50px;
     padding: 10px;
     background-color: white;
-
   }
 
-  .user_customer{
+  .user_customer {
     color: grey;
     font-size: medium;
     font-weight: 500;
-    
   }
 
-  .user_name{
+  .user_name {
     font-size: larger;
     font-weight: 400;
-    
   }
 
-  .user_email{
-    
+  .user_email {
     color: grey;
     font-size: medium;
     font-weight: 400;
   }
 
-  .user_phone{
+  .user_phone {
     color: grey;
     font-size: medium;
     font-weight: 400;
   }
 
-  .user_product{
-    
+  .user_product {
     position: relative;
     top: 100px;
     padding: 15px;
     background-color: white;
-
   }
 
-  .prod{
+  .prod {
     color: grey;
     font-size: medium;
     font-weight: 500;
     position: relative;
     top: 10px;
   }
-  .prod_margin{
+  .prod_margin {
     margin-top: 3px;
     height: 12px;
     background-color: whitesmoke;
   }
 
-  .prod_margin_b{
+  .prod_margin_b {
     margin-top: 3px;
     height: 12px;
     position: static;
     background-color: rgb(236, 233, 233);
   }
 
-  
-
-  
-
-  
-
-  
-
-
-  
-
+  .prod_total{
+    font-weight: bolder;
   }
+}

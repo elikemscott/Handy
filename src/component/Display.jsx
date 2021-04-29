@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { addUser} from "../store/UserActions"
+import { addUser } from "../store/UserActions";
 
-import UserForm from "../component/UserForm"
+import UserForm from "../component/UserForm";
 import UserInfo from "../component/UserInfo";
 import { Link } from "react-router-dom";
 
@@ -10,8 +10,6 @@ class Display extends Component {
   AddNewUser = (newUser) => {
     this.props.addUser(newUser);
   };
-
-  
 
   render() {
     return (
@@ -26,10 +24,8 @@ class Display extends Component {
               <i className="fab fa-whmcs"></i> Dashboard
               <span className="add">
                 <Link to={`/add/${this.AddNewUser}`}>
-                Add Startup <i className="fas fa-caret-down"></i>
-
+                  Add Startup <i className="fas fa-caret-down"></i>
                 </Link>
-                
               </span>
             </nav>
 
@@ -42,7 +38,6 @@ class Display extends Component {
                 </div>
                 <div className="add-startup">
                   <Link to={`/add/${this.AddNewUser}`}>
-                    
                     <i className="fas fa-plus"></i> Add startup
                   </Link>
                 </div>
@@ -80,7 +75,6 @@ class Display extends Component {
                             item={field.item}
                             amount={field.amount}
                             approve={field.approve}
-                            
                           />
                         </span>
                       );
@@ -102,7 +96,6 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {
   addUser: addUser,
-  
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Display);

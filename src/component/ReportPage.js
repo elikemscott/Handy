@@ -21,28 +21,19 @@ class ReportPage extends Component {
     console.log(this.props.accepted_users);
     return (
       <div className="parent">
-          <HomeNav/> <br/> <br/> <br/>
-        
-
+        <HomeNav /> <br /> <br /> <br />
         <div className="main">
           <div>
-           
-
-            
-
             <div className="flex">
-              <div className="dashboard">
-               
-              </div>
+              <div className="dashboard"></div>
               <div className="startups">
-                <div className="all">Reports</div>
+                <div className="all ml-5 mb-2">Reports</div>
                 <div className="container">
                   <input
                     className="form-control form-control-sm"
                     type="text"
                     placeholder="Filter Reports"
                   />
-                  
 
                   <div className="container new_user_info">
                     {this.props.accepted_users.map((field, index) => {
@@ -63,12 +54,12 @@ class ReportPage extends Component {
                       );
                     })}
                   </div>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
     );
   }
@@ -76,7 +67,7 @@ class ReportPage extends Component {
 
 const mapStateToProps = (state) => ({
   users: state.users,
-  accepted_users: state.accepted_users
+  accepted_users: state.accepted_users,
 });
 
 const mapDispatchToProps = {

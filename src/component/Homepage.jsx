@@ -93,7 +93,10 @@ class Homepage extends React.Component {
 
           <div className="home_mobile">
             <div>
-            <Link to='/Form'>  <MDBBtn gradient="purple">Create Invoice</MDBBtn> </Link>
+              <Link to="/Form">
+                {" "}
+                <MDBBtn gradient="purple">Create Invoice</MDBBtn>{" "}
+              </Link>
             </div>
             <div className="balance" gradient="purple">
               <p className="avail">Available Balance</p>
@@ -105,16 +108,34 @@ class Homepage extends React.Component {
             <h6 className="dashboard_tittle">Dashboard</h6>
             <div className="dashboard">
               <div className="pending">
-                <span className='invoice_tittle_m' >Invoices <br/> </span>  <span  className='invoice_tittle'> <span className='pending_num'>6</span> pending </span>  <span className="pending_notif">$3,808</span>
+                <span className="invoice_tittle_m">
+                  Invoices <br />{" "}
+                </span>{" "}
+                <span className="invoice_tittle">
+                  {" "}
+                  <span className="pending_num">6</span> pending{" "}
+                </span>{" "}
+                <span className="pending_notif">$3,808</span>
               </div>
               <div className="pending">
-                <span className='invoice_tittle_m' >Reports </span>  <br/> <span  className='invoice_tittle'> <span className='pending_num'>11</span> reports created </span> <span className="pending_notif"></span>
+                <span className="invoice_tittle_m">Reports </span> <br />{" "}
+                <span className="invoice_tittle">
+                  {" "}
+                  <span className="pending_num">11</span> reports created{" "}
+                </span>{" "}
+                <span className="pending_notif"></span>
               </div>
               <div className="pending">
-                <span className='invoice_tittle_m' >Monthly Revenue</span>  <br/> <span className='invoice_tittle'> <span>Last Month</span> </span>  <span className="pending_notif">$3,350</span>
+                <span className="invoice_tittle_m">Monthly Revenue</span> <br />{" "}
+                <span className="invoice_tittle">
+                  {" "}
+                  <span>Last Month</span>{" "}
+                </span>{" "}
+                <span className="pending_notif">$3,350</span>
               </div>
               <div className="pending">
-                <span className='invoice_tittle_m' >Total Revenue</span> <span className="total_rev">$16,200</span>
+                <span className="invoice_tittle_m">Total Revenue</span>{" "}
+                <span className="total_rev">$16,200</span>
               </div>
             </div>
           </div>

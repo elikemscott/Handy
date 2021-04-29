@@ -17,41 +17,24 @@ class PendingPage extends Component {
     this.props.deleteUser(user_id);
   };
 
-  
-
   render() {
     return (
       <div className="parent">
-          <HomeNav/> <br/> <br/> <br/> <br/>
+        <HomeNav /> <br /> <br /> <br /> <br />
         <div className="sidenav">
           <UserForm addUser={this.AddNewUser} />
         </div>
-
         <div className="main">
           <div>
-           
-
             <div className="flex">
-              <div className="dashboard">
-                
-                <div className="add-startup">
-                  <Link to={`/add/${this.AddNewUser}`}>
-                    {" "}
-                     Add Invoice{" "}
-                  </Link>
-                </div>
-               
-              </div>
-              <div className="startups">
-                
+              <div className="ml-5 mb-2">Invoices</div>
+              <div className="">
                 <div className="container">
                   <input
                     className="form-control form-control-sm"
                     type="text"
                     placeholder="Filter Invoice"
                   />
-                  
-                  
 
                   <div className="container new_user_info">
                     {this.props.users.map((field, index) => {
@@ -80,7 +63,6 @@ class PendingPage extends Component {
             </div>
           </div>
         </div>
-        
       </div>
     );
   }
